@@ -21,8 +21,16 @@ h1 { font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
+
+h3 { font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  margin: 0 0 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: grey;
+}
+
 h2,
-h3,
 h4,
 h5,
 h6 {
@@ -31,6 +39,7 @@ h6 {
   margin: 0 0 35px;
   letter-spacing: 1px;
   text-transform: uppercase; }
+
 
 p {
   font-size: 16px;
@@ -161,6 +170,10 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+  .download-section .title{
+    color: grey;
+  }
+
 
 #map {
   width: 100%;
